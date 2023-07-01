@@ -8,7 +8,7 @@ This is a simple spaceship game built using the Pygame library. The objective of
 install from command line:
 ```
 sudo apt install docker
-sudo docker pull ghcr.io/avivshalom1/spaceship/spaceship:latest
+sudo docker pull ghcr.io/avivshalom1/spaceship:latest
 ```
 
 run this command:
@@ -17,7 +17,7 @@ xhost +local:docker
 ```
 and than run the game:
 ```
-sudo docker run --rm -it --volume /tmp/.X11-unix:/tmp/.X11-unix --env DISPLAY=$DISPLAY ghcr.io/avivshalom1/spaceship/spaceship:latest
+sudo docker run --rm -it --volume /tmp/.X11-unix:/tmp/.X11-unix --env DISPLAY=$DISPLAY ghcr.io/avivshalom1/spaceship:latest
 ```
 
 ## How to Play
