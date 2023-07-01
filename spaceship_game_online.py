@@ -15,7 +15,6 @@ from spaceship import Spaceship
 
 # Initialize Pygame
 pygame.init()
-pygame.mixer.init()
 
 # Read the configuration from the JSON file
 with open('config.json', 'r') as configfile:
